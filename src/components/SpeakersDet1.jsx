@@ -10,7 +10,7 @@ export class SpeakersDet1 extends Component {
     }
   }
   async componentDidMount(){
-    const url = "https://script.google.com/macros/s/AKfycbyyeWFX0LOvI3S8IU35yW3HlYaIcpyTcsNqz_-jGXaTCDPhzrbzPUrn_hupX7CblPkk/exec?type="
+    const url = "google-sheet link"
     const response1 = await axios.get(url+"international");
     this.setState({international: response1.data.data});
     const response2 = await axios.get(url+"national");
