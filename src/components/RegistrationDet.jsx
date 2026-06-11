@@ -72,7 +72,7 @@ function RegistrationDet() {
           </p>
 
           <a
-            href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7013663&categoryName=Registration-Fee-ICMAAM-2026"
+            href="Payment link will be paste here"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
