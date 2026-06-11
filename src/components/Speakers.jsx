@@ -8,7 +8,7 @@ function Speakers() {
   useEffect(() => {
     axios
       .get(
-        "https://script.google.com/macros/s/AKfycbyubT2vUPqAMZIfD2Pj2Blfr2Rs2y9TNLFZF5i9ukdchFRo95Z-SI5Mc6EteGKkE4mU/exec"
+        "google sheet link should be added here"
       )
       .then((res) => {
         const data = res.data;
